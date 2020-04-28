@@ -1,0 +1,7 @@
+pwd
+git init sayfoo
+cd sayfoo
+git remote add origin https://github.com/sayfoo/commit-practice.git
+git pull
+git log --oneline
+git status

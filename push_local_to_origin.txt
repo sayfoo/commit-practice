@@ -1,0 +1,10 @@
+mkdir sayfoo
+cd sayfoo
+git init
+code help_me.txt
+git add help_me.txt
+git commit -m "add help_me.txt"
+git remote add origin https://github.com/sayfoo/commit-practice.git
+git push origin master
+git log --oneline --graph
+git status
